@@ -19,4 +19,8 @@ const HomePage: React.FC = () => {
   );
 };
 
+const cmsId = import.meta.env.VITE_CMS_ID;
+console.log(cmsId);
+
+
 export default HomePage;
