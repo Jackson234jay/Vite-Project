@@ -13,22 +13,11 @@ const App: React.FC = () =>
       <Button variant="contained" color="primary">
         Get Started
       </Button>import React from 'react';
+      </Container>
 
-const App: React.FC = () => {
-  const cmsId = import.meta.env.VITE_CMS_ID;
+)
 
-  return (
-    <div>
-      <h1>Welcome to the Vite App</h1>
-      <p>CMS ID: {cmsId}</p>
-    </div>
-  );
-};
 
-export default App;
-
-    </Container>
-  );
 };
 
 export default App;
